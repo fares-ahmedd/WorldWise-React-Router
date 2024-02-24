@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "09-vite-project",
+		"path": "../09-vite-project"
+	},
+	{
+		"name": "starter",
+		"path": "../react-jonas/11-worldwise/starter"
+	}
+],
+  "settings": {}
+}
