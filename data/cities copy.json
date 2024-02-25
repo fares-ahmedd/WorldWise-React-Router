@@ -35,30 +35,6 @@
         "lng": 46.6753
       },
       "id": 98443197
-    },
-    {
-      "cityName": "random city 1",
-      "country": "Morocco",
-      "emoji": "🇲🇦",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 31.629472,
-        "lng": -7.981084
-      },
-      "id": 178067512
-    },
-    {
-      "cityName": "random city 2",
-      "country": "Saudi Arabia",
-      "emoji": "🇸🇦",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 24.7136,
-        "lng": 46.6753
-      },
-      "id": 984431975
     }
   ]
 }
