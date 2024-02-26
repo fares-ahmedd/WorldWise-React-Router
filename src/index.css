@@ -1,5 +1,5 @@
 /* Taken from getting started guide at: https://leafletjs.com/examples/quick-start/ */
-@import "https://unpkg.com/leaflet@1.7.1/dist/leaflet.css";
+@import "https://unpkg.com/leaflet@1.9.3/dist/leaflet.css";
 @import "https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap";
 
 /* These CSS variables are global, so they are available in all CSS modules */
@@ -10,7 +10,7 @@
   --color-dark--0: #242a2e;
   --color-dark--1: #2d3439;
   --color-dark--2: #42484d;
-  --color-light--1: #aaa;
+  --color-light--1: #7fbd58;
   --color-light--2: #ececec;
   --color-light--3: #d6dee0;
 }
@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  user-select: none;
 }
 
 html {
@@ -67,3 +68,32 @@ input:focus {
   padding: 1rem 3rem;
   border-radius: 5px;
 }
+
+/* scroll bar */
+/* Define scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px; /* Set width of the scrollbar */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0; /* Set color of the scrollbar handle */
+  border-radius: 4px; /* Set border radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a0; /* Set color of the scrollbar handle on hover */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set color of the scrollbar track */
+}
+
+/* Track on hover */
+::-webkit-scrollbar-track:hover {
+  background: #e1e1e1; /* Set color of the scrollbar track on hover */
+}
+
+/*  end scroll bar */
