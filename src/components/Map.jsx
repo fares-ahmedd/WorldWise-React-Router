@@ -15,7 +15,7 @@ import Button from "./Button";
 import { useUrlPosition } from "../hooks/useUrlPositions";
 
 function Map() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([31.0419, 31.3785]);
@@ -35,9 +35,6 @@ function Map() {
     function () {
       if (geoLocationPosition) {
         setMapPosition([geoLocationPosition.lat, geoLocationPosition.lng]);
-        navigate(
-          `form?lat=${geoLocationPosition.lat}&lng=${geoLocationPosition.lng}`
-        );
       }
     },
     [geoLocationPosition]

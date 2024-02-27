@@ -10,7 +10,7 @@
         "lat": 30.04442,
         "lng": 31.235712
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Kazablanka",
@@ -22,7 +22,7 @@
         "lat": 31.629472,
         "lng": -7.981084
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Riyadh",
@@ -34,7 +34,31 @@
         "lat": 24.7136,
         "lng": 46.6753
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "df8d",
+      "cityName": "Zikhron Ya‘aqov",
+      "country": "palestine",
+      "emoji": "IL",
+      "date": "2024-02-26T08:35:17.364Z",
+      "notes": "hmmmmm",
+      "position": {
+        "lat": "32.54681317351517",
+        "lng": "34.97497558593751"
+      }
+    },
+    {
+      "id": "dd42",
+      "cityName": "Grisy-Suisnes",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2024-02-26T09:37:26.520Z",
+      "notes": "cool",
+      "position": {
+        "lat": "48.69096039092552",
+        "lng": "2.7026367187500004"
+      }
     }
   ]
 }
