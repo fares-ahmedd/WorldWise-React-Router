@@ -1,24 +1,25 @@
 .login {
-  margin: 2.5rem;
-  padding: 2.5rem 5rem;
   background-color: var(--color-dark--1);
-  min-height: calc(100vh - 5rem);
+  min-height: 100vh;
 }
 
 .form {
   background-color: var(--color-dark--2);
   border-radius: 7px;
   padding: 2rem 3rem;
-  width: 100%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 
   /* Different from other form */
-  width: 48rem;
   margin: 8rem auto;
 }
-
+@media (max-width: 500px) {
+  .form {
+    width: 95%;
+  }
+}
 .row {
   display: flex;
   flex-direction: column;

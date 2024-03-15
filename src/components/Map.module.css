@@ -4,7 +4,11 @@
   background-color: var(--color-dark--2);
   position: relative;
 }
-
+@media (max-width: 950px) {
+  .mapContainer {
+    flex-basis: 50%;
+  }
+}
 .map {
   height: 100%;
 }

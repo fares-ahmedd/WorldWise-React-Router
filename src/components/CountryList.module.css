@@ -3,7 +3,7 @@
   height: 65vh;
   list-style: none;
   overflow-y: auto;
-  overflow-x: hidden;
+  overflow-x: auto;
   padding: 5px;
   display: grid;
   grid-template-columns: 1fr 1fr;

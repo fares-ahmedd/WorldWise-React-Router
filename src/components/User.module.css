@@ -1,6 +1,5 @@
 .user {
   position: absolute;
-  top: 4.2rem;
   right: 4.2rem;
   background-color: var(--color-dark--1);
   padding: 1rem 1.4rem;
@@ -13,6 +12,19 @@
   display: flex;
   align-items: center;
   gap: 1.6rem;
+}
+@media (min-width: 950px) {
+  .user {
+    top: 4.2rem;
+  }
+}
+@media (max-width: 950px) {
+  .user {
+    position: absolute;
+
+    bottom: 34.2rem;
+    right: 10px;
+  }
 }
 
 .user img {

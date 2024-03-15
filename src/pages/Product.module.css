@@ -1,23 +1,27 @@
 .product {
-  margin: 2.5rem;
-  padding: 2.5rem 5rem;
   background-color: var(--color-dark--1);
-  min-height: calc(100vh - 5rem);
+  min-height: 100vh;
 }
 
 .product section {
-  width: clamp(80rem, 80%, 90rem);
-  margin: 6rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 7rem;
   align-items: center;
+  padding: 10px;
 }
 
 .product img {
   width: 100%;
 }
-
+@media (max-width: 800px) {
+  .product section {
+    grid-template-columns: 1fr;
+  }
+  .product img {
+    grid-area: 2;
+  }
+}
 .product h2 {
   font-size: 4rem;
   line-height: 1.2;
