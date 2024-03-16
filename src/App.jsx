@@ -10,12 +10,7 @@ import CountriesList from "./components/CountriesList";
 import City from "./components/City";
 import Form from "./components/Form";
 import SpinnerFullPage from "./components/SpinnerFullPage";
-// import Product from "./pages/Product";
-// import Pricing from "./pages/Pricing";
-// import Homepage from "./pages/Homepage";
-// import PageNotFound from "./pages/PageNotFound";
-// import AppLayout from "./pages/AppLayout";
-// import Login from "./pages/Login";
+
 const Homepage = lazy(() => import("./pages/Homepage"));
 const Product = lazy(() => import("./pages/Product"));
 const Pricing = lazy(() => import("./pages/Pricing"));
@@ -23,8 +18,7 @@ const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const Login = lazy(() => import("./pages/Login"));
 
-// dist/assets/index-5903a2a6.css   30.62 kB │ gzip:   5.19 kB
-// dist/assets/index-7e2997ec.js   511.09 kB │ gzip: 147.55 kB
+
 function App() {
   return (
     <AuthProvider>

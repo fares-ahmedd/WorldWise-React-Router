@@ -13,7 +13,7 @@ function CountryItem({ country }) {
         try {
           const res = await fetch(
             `https://api.unsplash.com/search/photos?query=${country.country}&client_id=_hq3AX3cijB3fHN9ApbAkuv9WpveFu_DDNaWW09HdKQ`
-          ); // key _hq3AX3cijB3fHN9ApbAkuv9WpveFu_DDNaWW09HdKQ
+          );
           const data = await res.json();
           setDataImage(data.results[randomNumber].urls.small);
           console.log(data.results[0].urls.small);
@@ -25,7 +25,7 @@ function CountryItem({ country }) {
       }
       getCountryImage();
     },
-    [dataImage]
+    [dataImage, country.country]
   );
   if (isLoading) return <Spinner />;
   return (
