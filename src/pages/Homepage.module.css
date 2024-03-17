@@ -4,7 +4,7 @@
       rgba(36, 42, 46, 0.8),
       rgba(36, 42, 46, 0.8)
     ),
-    url("../m-bg.jpg");
+    url("../assets/m-bg.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 30px;
