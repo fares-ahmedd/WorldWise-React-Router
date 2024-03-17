@@ -18,7 +18,6 @@ const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const Login = lazy(() => import("./pages/Login"));
 
-
 function App() {
   return (
     <AuthProvider>
@@ -52,5 +51,5 @@ function App() {
     </AuthProvider>
   );
 }
-
+console.log("test");
 export default App;
