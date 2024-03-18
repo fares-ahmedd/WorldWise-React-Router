@@ -11,3 +11,7 @@
     <img src="https://github.com/fares-ahmedd/WorldWise-React-Router/assets/110955622/4db26450-1115-4dcf-8158-6bba3879f9f5" alt="GIFMaker_me" style="width: 100%;">
 </div>
 
+<div align="center">
+    <img src="https://github.com/fares-ahmedd/WorldWise-React-Router/assets/110955622/2eed564c-ddc6-4c11-9b6b-12880017c9d0" alt="GIFMaker_me" style="width: 100%;">
+</div>
+
